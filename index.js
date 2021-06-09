@@ -4,9 +4,44 @@
 //var sk2;       // kintamuosiuose jeigu nieko nenurodai paraso Undifined , reismes tipai gali buti Undifined, number, string
               // galima naudoti kintamuosius nuo a-z A-Z $ _ 0-9
 
-var tekstas = "cia yra 'sp' texstas";   // kokiom kabutem pradejom tokiom ir turim baigti , viengubose kabutese galima irasyti ir dvigubas kabutes bet uzdarant vienguba kabute ir atvirksciai.
+              var tekstas = "Labas"; // kokiom kabutem pradejom tokiom ir turim baigti , viengubose kabutese galima irasyti ir dvigubas kabutes bet uzdarant vienguba kabute ir atvirksciai.
+              //  ( /r - gryzti i eilutes pradzia. /n- persokti i nauja eilute zemyn). 
+              tekstas = tekstas + " pasauli"; 
+
+var s1 = "15";
+var s2 = "5";
+
+console.log(s1 + s2);
+//         "15" + "5"
+//              "155"
+var sk1 = 15;
+var sk2 = 5;
+
+console.log(sk1 + sk2);
+//          15 + 5
+//            20
+
+console.log(sk1 + sk2 + s1 + s2);
+//          15 + 5    
+//             20     + "15"       jeigu nors vienas is sudeties operandu yra ("stringas""textas") skaiciai bus verciami automatiskai i "stringa"
+//             "20" + "15"
+//             "2015" + "5"
+//                "20155"
+
+
+console.log("" + sk1 + sk2 + s1 + s2);
+//          "" + 15
+//          "" + "15"
+//          "15"  + 5
+//           "15" + "5"
+//            "155" + " 15"
+//             "15515" + " 5"
+//            "155155"  rezultatas
+
 
 console.log(tekstas);
+
+
 
 
 //var TotalInvoiceSum       // KAMEL rasymo budas zodziu pavyzdys pradeda mazosiomis sekantys zodziai is didziosiomis  asEinuMiegoti

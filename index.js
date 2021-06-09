@@ -1,12 +1,23 @@
 "use strict";
  
 //var sk1;  
-//var sk2;       // kintamuosiuose jeigu nieko nenurodai paraso Undifined , reismes tipai gali buti Undifined, number, string
+//var sk2;       // kintamuosiuose jeigu nieko nenurodai paraso Undifined , reismes tipai gali buti Undifined, number, string, boolean (dvi reiksmes- true ir false)
               // galima naudoti kintamuosius nuo a-z A-Z $ _ 0-9
 
               var tekstas = "Labas"; // kokiom kabutem pradejom tokiom ir turim baigti , viengubose kabutese galima irasyti ir dvigubas kabutes bet uzdarant vienguba kabute ir atvirksciai.
               //  ( /r - gryzti i eilutes pradzia. /n- persokti i nauja eilute zemyn). 
               tekstas = tekstas + " pasauli"; 
+
+var b = true;   //naudojama loginems operacijoms 
+var b1 = false;  
+
+var sk1 = 55;
+var b = sk1 > 10;
+
+console.log(b);
+
+
+
 
 var s1 = "15";
 var s2 = "5";
@@ -21,7 +32,7 @@ console.log(sk1 + sk2);
 //          15 + 5
 //            20
 
-console.log(sk1 + sk2 + s1 + s2);
+console.log(sk1 + sk2 + s1 + s2);  // svarbus sudeties eiliskumas (is kaires i desine) nes pirmas veiksmas numberiai tada daro aritmetika -sudeda 
 //          15 + 5    
 //             20     + "15"       jeigu nors vienas is sudeties operandu yra ("stringas""textas") skaiciai bus verciami automatiskai i "stringa"
 //             "20" + "15"
@@ -37,6 +48,8 @@ console.log("" + sk1 + sk2 + s1 + s2);
 //            "155" + " 15"
 //             "15515" + " 5"
 //            "155155"  rezultatas
+console.log(s1 + s2 + sk1 + sk2); // nes pirmas veiksmas stringas , vercia toliau i stringa
+//     "155" + "155" = 155155
 
 
 console.log(tekstas);
@@ -68,6 +81,10 @@ console.log(tekstas);
                            - - atimtis
                              / - dalyba
                             * - daugyba
+                             > - daugiau
+                             < - maziau
+                             >= - daugiau arba lygu
+                             <= - maziau arba lygu
                             */
            //paimam reiksme is rez ->12. paimam reiksme is sk3 -> 4. padalinam 12 / 4 = 3. padedam gauti reiksme i rez
            /*

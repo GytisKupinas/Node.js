@@ -57,6 +57,34 @@ console.log(tekstas);
 2^10 - kilo
 2^20 = 2^10 * 2^10 - mega
 2^30 = 2^10 * 2^10 * 2^10 - giga
+
+\ - \ (vienas simbolis)
+\' - ' (vienas simbolis)
+\" - " (vienas simbolis)
+\t - TAB (kodas 09)
+\n - LF line feed (kodas 0A arba 10)
+\r - CR carridge return (kodas 0D arba 13)
+\uxxxx - xxxx sesioliktainis simbolio kodas
+
+var tekstas = 'c \u4EFB i\u0061 \\\\ y\tr\ta \"\'specialus\'\" tek\r\nstas';
+
+0000 0 0
+0001 1 1
+0010 2 2
+0011 3 3
+0100 4 4
+0101 5 5
+0110 6 6
+0111 7 7
+1000 8 8
+1001 9 9
+1010 10 A
+1011 11 B
+1100 12 C
+1101 13 D
+1110 14 E
+1111 15 F
+
            */
 
 

@@ -1,21 +1,25 @@
 "use strict";
  
-var sk1;
-var sk2;
-// galima naudoti kintamuosius nuo a-z A-Z $ _ 0-9
+//var sk1;  
+//var sk2;       // kintamuosiuose jeigu nieko nenurodai paraso Undifined , reismes tipai gali buti Undifined, number, string
+              // galima naudoti kintamuosius nuo a-z A-Z $ _ 0-9
 
-var bendarSaskaitosSum;
-var TotalInvoiceSum       // KAMEL rasymo budas zodziu pavyzdys pradeda mazosiomis sekantys zodziai is didziosiomis  asEinuMiegoti
+var tekstas = "cia yra 'sp' texstas";   // kokiom kabutem pradejom tokiom ir turim baigti , viengubose kabutese galima irasyti ir dvigubas kabutes bet uzdarant vienguba kabute ir atvirksciai.
 
-sk1 = 0.5;
-sk2 = 0.7;
+console.log(tekstas);
 
-var sk3 = 0.2;
+
+//var TotalInvoiceSum       // KAMEL rasymo budas zodziu pavyzdys pradeda mazosiomis sekantys zodziai is didziosiomis  asEinuMiegoti
+
+//sk1 = 0.5;
+//sk2 = 0.7;
+
+//var sk3 = 0.2;
 
             
-var rez;
+//var rez;
 
-rez = sk1 + sk2 * sk3 / sk1;  // ima pagal tai kuiris veiksmas sturi aukstesni lygi, ziureti puslapyje, ta veiksma pirma ir atlikines. taisykles is desines i kaire ar is kaires i desine .
+//rez = sk1 + sk2 * sk3 / sk1;  // ima pagal tai kuiris veiksmas sturi aukstesni lygi, ziureti puslapyje, ta veiksma pirma ir atlikines. taisykles is desines i kaire ar is kaires i desine .
 
                           //     5 + 7        yra 2 tipu komentarai //-eiluteje visoje raso ir /* */- raso viduje iki uzdarumu skliaustu
                           /*
@@ -57,4 +61,4 @@ rez = sk1 + sk2 * sk3 / sk1;  // ima pagal tai kuiris veiksmas sturi aukstesni l
 
 
 
-console.log(rez);
+//console.log(rez);

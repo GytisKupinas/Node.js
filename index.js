@@ -96,6 +96,10 @@ console.log(tekstas);
                              < - maziau
                              >= - daugiau arba lygu
                              <= - maziau arba lygu
+                             == - ar lygu
+                             === - ar lygu (strict)
+                             != - ar nelygu
+                             !== - ar nelygu (strict)
                             */
            //paimam reiksme is rez ->12. paimam reiksme is sk3 -> 4. padalinam 12 / 4 = 3. padedam gauti reiksme i rez
            /*

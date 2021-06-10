@@ -12,9 +12,20 @@ var b = true;   //naudojama loginems operacijoms
 var b1 = false;  
 
 var sk1 = 55;
-var b = sk1 > 10;
 
-console.log(b);
+
+if (sk1 > 10) {      // riestiniai skliaustai skirti rasyti blokui , bet patartina rasyti visada blokus nors ir yra viena komanda 
+  
+console.log("didelis");
+sk1 = sk1 * 10;
+console.log(sk1);
+}
+
+else {
+console.log("mazas");
+console.log("dar viena komanda");
+}
+console.log("pabaiga");
 
 
 

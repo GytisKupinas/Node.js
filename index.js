@@ -97,21 +97,21 @@ while (sk <= 4) {​​​​​
   console.log(suma);
 
 
-                          var - kintamojo deklaravimas
-                           = - reiksmes priskyrimas kintamajam
-                           + - sudetis 
-                           - - atimtis
-                             / - dalyba
-                            * - daugyba
-                             > - daugiau
-                             < - maziau
-                             >= - daugiau arba lygu
-                             <= - maziau arba lygu
-                             == - ar lygu
-                             === - ar lygu (strict)
-                             != - ar nelygu
-                             !== - ar nelygu (strict)
-                            */
+   var - kintamojo deklaravimas
+  = - reiksmes priskyrimas kintamajam
+  + - sudetis 
+  - - atimtis
+  / - dalyba
+  * - daugyba
+  > - daugiau
+  < - maziau
+ >= - daugiau arba lygu
+ <= - maziau arba lygu
+ == - ar lygu
+=== - ar lygu (strict)
+ != - ar nelygu
+!== - ar nelygu (strict)
+*/                       
            //paimam reiksme is rez ->12. paimam reiksme is sk3 -> 4. padalinam 12 / 4 = 3. padedam gauti reiksme i rez
            /*
 
@@ -168,3 +168,42 @@ var tekstas = 'c \u4EFB i\u0061 \\\\ y\tr\ta \"\'specialus\'\" tek\r\nstas';
 
 
 //console.log(rez);
+
+
+/* pavizdys          visada rasyti {} 
+var sk1 = 55;
+
+if (sk1 > 10) {
+    console.log("didelis");
+}
+
+else {
+    console.log("mazas");
+}
+
+
+console.log("pabaiga");
+
+*/
+/*   pavizdys
+var sk1 = -55;
+
+if (sk1 < 0) {
+    console.log("neigiamas");
+}
+else if (sk1 === 0) {
+    console.log("NULIS");
+}
+else if (sk1 < 10) {
+    console.log("mazas");
+}
+else if (sk1 < 100) {
+    console.log("vidutinis");
+}
+else {
+    console.log("didelis");
+}
+
+console.log("pabaiga");
+
+*/

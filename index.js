@@ -86,6 +86,17 @@ console.log(tekstas);
                           pasiziuriu kas yra saugoma sk2 ->7
                            atliekam sudeti 5+7=12
                            12 -> rez
+                           [1:13 PM] Aleksandras Novikovas(Alius)
+var suma = 0;
+var sk = 1;
+while (sk <= 4) {​​​​​ 
+  suma = suma + sk;
+   sk = sk + 1;
+  }​​​​​
+   console.log(sk);
+  console.log(suma);
+
+
                           var - kintamojo deklaravimas
                            = - reiksmes priskyrimas kintamajam
                            + - sudetis 

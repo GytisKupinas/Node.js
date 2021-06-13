@@ -111,6 +111,13 @@ while (sk <= 4) {​​​​​
 === - ar lygu (strict)
  != - ar nelygu
 !== - ar nelygu (strict)
+
+!- NOT - NE 
+& - AND - IR
+| - OR - ARBA
+^ - XOR - ARBA -paturbintas
+
+
 */                       
            //paimam reiksme is rez ->12. paimam reiksme is sk3 -> 4. padalinam 12 / 4 = 3. padedam gauti reiksme i rez
            /*

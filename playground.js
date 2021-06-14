@@ -17,7 +17,7 @@ while (i <= 10000) {
 */
 
 
-var nuo = 1;
+/*var nuo = 1;
 var iki = 3;
 var i = nuo;
 while (i <= iki) {
@@ -29,3 +29,19 @@ while (i <= iki) {
     i += 1;
 }
 console.log("Pabaiga");
+*/
+
+/* var suma = 0;
+
+  var sk = 1;
+
+while (sk <= 100) {
+    suma = suma + sk;
+    sk = sk + 1;
+
+}
+console.log(suma);
+*/
+
+
+console.log("pabaiga");

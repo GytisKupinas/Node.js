@@ -103,6 +103,10 @@ while (sk <= 4) {​​​​​
   - - atimtis
   / - dalyba
   * - daugyba
+  % - liekana
+
+
+
   > - daugiau
   < - maziau
  >= - daugiau arba lygu

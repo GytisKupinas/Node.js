@@ -64,17 +64,25 @@ while (sk <= 100) {
 
 
 
-var nuo = 1;
-var iki = 3;
+/* var nuo = 2;  
+   var iki = 4;
 
-var i = 1;
+var i = nuo;
 while (i <= iki) {
-    var j = 1;
+    var j = nuo;
     while (j <= iki) {
         console.log(i * j);
         j = j + 1;
     }
     i = i +1;
 }
+*/
+// suskaiciuoti visu skaiciu nuo 1 iki 100 , kurie dalinasi is 3 suma
+
+
+
+// atspausdinti visus pirminius skaicius intervale nuo 2 iki 100
+
+
 
 console.log("pabaiga");

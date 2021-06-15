@@ -120,7 +120,7 @@ while (i <= 100) {
 
 // namu darbas daugybos lentele. var nuo = 1;  var iki = 4;
 
-var nuo = 1;
+/*var nuo = 1;
 var iki = 3;
 var i = nuo;
 while (i <= iki) {
@@ -132,6 +132,9 @@ while (i <= iki) {
     i += 1;
 }
 console.log("Pabaiga");
+*/
+
+
 
 
 

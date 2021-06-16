@@ -14,7 +14,7 @@ console.log(sk);
 console.log("pabaiga");
 */
 
-console.log("pradzia");
+/*console.log("pradzia");
  
 {
  let sk = 3;
@@ -30,3 +30,29 @@ console.log("pradzia");
  sk = 17;
  console.log("kita komanda bloke", sk);
 }
+*/
+
+/*
+let i = 1;
+while (i < 3) {
+let k = 5;
+console.log(i++ * k);
+}
+console.log(i);
+
+let i = 1;
+while (i < 3) {
+let i = 7;
+let k = 5;
+console.log(i++ * k);
+}
+console.log(i);
+*/
+
+
+
+for (let i = 1; i < 3; i++) 
+ console.log(i);
+ 
+console.log(i);
+

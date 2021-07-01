@@ -54,10 +54,25 @@ Termosas.prototype.atvesink = function(kiek) {
     this.temp -= kiek;
 }
 
+Termosas.prototype.ipilk = function (kiek) {
+    if (kiek <= 0) {
+        console.log("Ar zinai, ka darai?");
+        return;
+    }
+    this.kiekis += kiek;
+    if (this.kiekis > this.maxTuris) {
+        console.log("Ant kelniu issipyle " + (this.kiekis - this.maxTuris));
+        this.kiekis = this.maxTuris;
+    } else {
+        console.log("Sekmingai ipylem " + kiek + ". Liko laisvos vietos: " + (this.maxTuris - this.kiekis));
+    }
+    this.temp -= 5;
+}
 
-const t1 = new Termosas("Zalias", 1000);
 
-t1.ipilk(500);
-t1.pasildyk(50);
-console.log(t1);
+// const t1 = new Termosas("Zalias", 1000);
+
+// t1.ipilk(500);
+// t1.pasildyk(50);
+// console.log(t1);
 
